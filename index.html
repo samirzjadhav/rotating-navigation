@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- <script
+      src="https://kit.fontawesome.com/f2299c47f0.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rotating Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+          <button id="open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Amazing Article</h1>
+        <small>sam piler </small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          quidem dicta minima. Ea itaque sapiente totam alias nostrum reiciendis
+          nam necessitatibus hic, officia aspernatur odio, cum consequatur error
+          est! Totam ducimus aut quisquam molestias mollitia optio tempore nam
+          repellendus minus aliquid? Expedita labore sunt illo nulla ipsum quis
+          natus explicabo dicta voluptas? Atque eos, doloremque exercitationem,
+          nemo voluptates deleniti animi ducimus dicta necessitatibus a
+          dignissimos ipsam! Blanditiis voluptates delectus optio neque
+          quibusdam dolores facere odit facilis repellendus eum vero incidunt
+          quod dignissimos unde exercitationem quisquam, cupiditate vel,
+          consequatur ex doloremque totam nam ab voluptas accusamus? Obcaecati
+          sunt ipsam consectetur amet.
+        </p>
+        <h3>My Dog</h3>
+        <img src="./dog-image.avif" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus,
+          minima ab amet et repellat incidunt facilis fugit ex, quam excepturi
+          eaque totam explicabo exercitationem cum, neque provident eligendi
+          tempore qui a aliquam quas! Doloribus, repudiandae saepe? Beatae
+          accusamus dolorum nemo deserunt illo dolores repellat veritatis hic
+          fugiat, quis, nam reprehenderit dicta magni excepturi placeat tenetur
+          numquam quasi consectetur eveniet perferendis facilis reiciendis
+          adipisci! Eos officiis voluptatem aut eligendi reprehenderit illum
+          esse perferendis sint nam.
+        </p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icons"
+          >
+            <path
+              d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
+            />
+            <path
+              d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
+            />
+          </svg>
+
+          Home
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icons"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+              clip-rule="evenodd"
+            />
+          </svg>
+
+          About
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icons"
+          >
+            <path
+              d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+            />
+            <path
+              d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+            />
+          </svg>
+
+          Contact
+        </li>
+      </ul>
+    </nav>
+    <script src="./script.js"></script>
+  </body>
+</html>
